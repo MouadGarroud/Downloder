@@ -1,5 +1,5 @@
 # Downloder
-Tool allows to download videos , and then either download the video as an MP4 file or extract the audio and save it as an MP3 file.
+This tool allows to download videos , and then either download the video as an MP4 file or extract the audio and save it as an MP3 file.
 
 # Project Overview
 This script is a tool designed to download videos and audio from numerous platforms in either MP3 or MP4 format. Users can provide a URL and choose between downloading the video as an MP4 file or extracting the audio as an MP3 file. The tool leverages yt-dlp for downloading media and moviepy for converting videos into audio.
