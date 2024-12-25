@@ -132,4 +132,4 @@ progress_label.grid(row=3, column=0, columnspan=3, pady=5)
 progress_bar = ttk.Progressbar(frame, length=400, mode='determinate')
 progress_bar.grid(row=4, column=0, columnspan=3, pady=5)
 root.mainloop()
-#instagram
+# Badass
