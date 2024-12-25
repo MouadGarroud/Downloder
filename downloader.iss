@@ -17,8 +17,8 @@ ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
-InfoBeforeFile=C:\Users\Badass\script\downloader\Readme.txt
-OutputDir=C:\Users\Badass\script\downloader\New folder
+InfoBeforeFile=path\to\Readme.txt
+OutputDir=path\to\output
 OutputBaseFilename=Downloader
 Compression=lzma
 SolidCompression=yes
@@ -29,9 +29,9 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 [Files]
-Source: "C:\Users\Badass\script\downloader\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Badass\script\downloader\downloader.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Badass\script\downloader\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "path\to\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "path\to\downloader.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "path\to\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocKey}"; ValueType: string; ValueName: ""; ValueData: "{#MyAppAssocName}"; Flags: uninsdeletekey
